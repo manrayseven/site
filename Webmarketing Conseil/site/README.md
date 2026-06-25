@@ -45,8 +45,8 @@ Dans **chaque** page, en haut du `<head>`, un bloc commenté `<!-- ===== TRACKIN
 2. Déposez **tout le contenu de `site/`** à la racine web (`www/` ou `public_html/`).
 3. Pour mettre à jour : ré-uploadez le(s) fichier(s) modifié(s). Activez le HTTPS/SSL côté hébergeur.
 
-## Important — chemins absolus
-Les liens internes et ressources utilisent des chemins **absolus à la racine** (`/css/site.css`, `/assets/…`, `/contact`). Le site doit donc être servi **à la racine d'un domaine** (domaine perso, ou Pages d'un dépôt `votrecompte.github.io`). Sur une *project page* `compte.github.io/depot/`, ces chemins casseraient — utilisez un domaine perso (déjà prévu via `CNAME`).
+## Chemins relatifs — fonctionne partout
+Toutes les ressources et liens internes sont en **chemins relatifs**. Le site fonctionne donc tel quel à la **racine d'un domaine**, dans un **sous-dossier** (ex. `compte.github.io/site/`), et même en **ouverture locale** — sans rien changer.
 
 ## Points à décider
 - **Blog** : les liens `/blog` pointent vers une section blog. Si votre blog reste sur WordPress, remplacez ces liens par son URL complète, ou intégrez le blog au même domaine.
