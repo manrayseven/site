@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /validation/
+Disallow: /validation-entretien/
+Disallow: /validation-inscription-webinaire/
+Sitemap: https://www.webmarketing-conseil.fr/sitemap.xml
